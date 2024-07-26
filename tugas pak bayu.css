@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: lightgray;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 40px 0 20px;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.276);
+    color: white;
+}
+
+.logo img {
+    width: 95px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+
+.slog {
+    margin: 16vh 0;
+    text-align: center;
+    padding: 25vh;
+    background-image: url(Galeri-Mancing-Store_2\ \(1\).jpg);
+    height: 100vh;
+    background-position: center;
+    color: rgb(0, 183, 255);
+
+}
+
+.kartu-informasi {
+    padding: 40vh 20vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.k {
+    padding: 20px;
+    width: 25%;
+    background: lightgray;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.k a {
+    text-decoration: none;
+    color: aqua;
+    padding: 10px 15px;
+    background: white;
+    
+}
+
+.kartu-atas img {
+    width: 100%;
+ 
+}
+
+.detail-produk {
+    padding: 30vh;
+    color: black;
+}
+
+footer {
+    background: black;
+    padding: 10vh;
+    text-align: center;
+    color: white;
+}
